@@ -50,10 +50,10 @@ The board layout is constrained by specific routing rules configured within the 
 
 | Net Class Name | Clearance | Track Width | Via Size | Via Drill | uVia Size | uVia Drill | DP Width | DP Gap |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `BGA_Escape` | 0.127 mm | 0.127 mm | 0.450 mm | 0.200 mm | 0.450 mm | 0.200 mm | 0.127 mm | 0.150 mm |
+| `BGA_Escape` | 0.127 mm | 0.127 mm | 0.400 mm | 0.200 mm | 0.400 mm | 0.200 mm | 0.127 mm | 0.150 mm |
 | `Universal_Bus` | 0.150 mm | 0.200 mm | 0.600 mm | 0.300 mm | 0.600 mm | 0.300 mm | 0.200 mm | 0.200 mm |
-| `Power_GND` | 0.200 mm | 0.600 mm | 0.800 mm | 0.400 mm | 0.800 mm | 0.400 mm | 0.600 mm | 0.250 mm |
-| `Default` | 0.200 mm | 0.250 mm | 0.600 mm | 0.300 mm | 0.600 mm | 0.300 mm | 0.250 mm | 0.250 mm |
+| `Power_GND` | 0.200 mm | 0.500 mm | 0.800 mm | 0.400 mm | 0.800 mm | 0.400 mm | 0.600 mm | 0.250 mm |
+| `Default` | 0.200 mm | 0.200 mm | 0.600 mm | 0.300 mm | 0.300 mm | 0.100 mm | 0.200 mm | 0.250 mm |
 
 ### Routing Mechanics
 * **BGA Escape Plan:** Escape tracks (0.127 mm width) break out through the diagonal open channels between the BGA pads (0.400 mm pad diameter). Vias are placed inside the center void of each 4-pad diamond cluster to preserve spatial clearances.
@@ -68,4 +68,4 @@ The board layout is constrained by specific routing rules configured within the 
 * **Impact:** Requires mapping additional General Purpose I/O (GPIO) banks from the PolarFire fabric and scaling up the number of transceiver/buffer ICs.
 
 ### Alternate Pod Interconnect Profiles
-* **Connector Variant Modularity:** Evaluation of replacing or augmenting the baseline standard PCIe card-edge footprint with multi-lane high-density, high-speed connector options (e.g., Amphenol PCIe M.2 Gen 3/Gen 4 card edge or specialized mezzanine interconnects) to decrease overall pod size profiles while protecting high-speed signal integrity.E
+* **Connector Variant Modularity:** Evaluation of replacing or augmenting the baseline standard PCIe card-edge footprint with multi-lane high-density, high-speed connector options (e.g., Amphenol PCIe M.2 Gen 3/Gen 4 card edge or specialized mezzanine interconnects) to decrease overall pod size profiles while protecting high-speed signal integrity.
