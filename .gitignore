@@ -1,0 +1,19 @@
+# KiCad temporary, backup, and lock files
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+*-backups/
+_autosave-*
+
+# Filter out other unneeded projects in the parent folder
+Black-Box/
+PAL_to_27C020_Adapter/
+Polaris-ICE/
+
+# Output directories
+fp-info-cache
+*.gbr
+*.drl
+*.pdf

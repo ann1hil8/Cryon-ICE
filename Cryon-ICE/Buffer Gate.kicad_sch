@@ -1,0 +1,5894 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "384e4d71-1ad1-4fb7-b2c5-30ea8f9fb53d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74LVC1G125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G125"
+				(at 2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G125_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G125_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04210488-f995-449f-8930-716ebe4cbf96")
+		(property "Reference" "U405"
+			(at -21.59 55.8098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 58.3498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f37fbb36-ce54-44c5-a79b-55db8f17fe61")
+		)
+		(pin "3"
+			(uuid "fb41f6c8-3258-491f-93df-ffb2c1a96430")
+		)
+		(pin "4"
+			(uuid "8a33a40d-963e-456a-8ccb-02cebcb1ab0f")
+		)
+		(pin "2"
+			(uuid "62613f7e-9965-4d5e-abab-8b657616c862")
+		)
+		(pin "5"
+			(uuid "355e97d3-fdd8-47bc-9396-324364922bd5")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05cee153-fc19-4f94-8f44-860545c5b36a")
+		(property "Reference" "U412"
+			(at 81.28 74.8598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 77.3998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "103a932f-32d4-4fa0-bcdf-5e07ed73bf4d")
+		)
+		(pin "3"
+			(uuid "3faaabe5-4fbf-4df7-b98f-8137eef90418")
+		)
+		(pin "4"
+			(uuid "fc0cfc89-dfd6-46b4-b42a-ed3ba7cebd81")
+		)
+		(pin "2"
+			(uuid "80f0f564-72e6-42ac-8602-507a51eb2fc6")
+		)
+		(pin "5"
+			(uuid "0cc183d1-a86c-408f-97c0-e3af469c47b7")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06540b57-c532-42cf-9bd1-27fbfb1869c3")
+		(property "Reference" "U410"
+			(at 194.31 73.5898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 76.1298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "034573f6-fb4a-4d30-a62a-f216afd59fbc")
+		)
+		(pin "3"
+			(uuid "7ddc9225-51d0-4062-adbb-7cb348613548")
+		)
+		(pin "4"
+			(uuid "414731ac-7924-410f-8bb0-27da592d9402")
+		)
+		(pin "2"
+			(uuid "6b4a9f58-d83b-455b-81f0-3858e1d05e62")
+		)
+		(pin "5"
+			(uuid "d6677367-a7b5-45ab-b644-adbe0507b2c1")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a56cab-6c72-47d3-89a5-9db487855770")
+		(property "Reference" "U430"
+			(at 194.31 192.9698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 195.5098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28f0f046-9767-4739-a948-f856d529ad29")
+		)
+		(pin "3"
+			(uuid "0d26e5f3-a9c3-44b1-adca-992f009ef762")
+		)
+		(pin "4"
+			(uuid "dec75879-63f8-4032-85a3-90bab3589666")
+		)
+		(pin "2"
+			(uuid "3fe07892-478b-4d90-a0f3-f8207222df4e")
+		)
+		(pin "5"
+			(uuid "f0ba5622-ca2a-49b7-82e7-e56e83431581")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U430")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 280.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a9ffce2-c604-4b7e-a850-25afae38dc1e")
+		(property "Reference" "U441"
+			(at -21.59 274.2498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 276.7898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "048bf67e-cbcb-405d-b494-76739b820abe")
+		)
+		(pin "3"
+			(uuid "8c8517ea-fee8-4472-99f1-04f1ec47b277")
+		)
+		(pin "4"
+			(uuid "3aa7498f-d025-428d-bc96-267ba73cb91d")
+		)
+		(pin "2"
+			(uuid "73dbb4ea-8f60-4ecd-9f95-dd5ac9ac069e")
+		)
+		(pin "5"
+			(uuid "2113ccc6-8486-4763-b2be-b323468d55cc")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U441")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a74450-b4fb-481a-8d71-209a0ca4540d")
+		(property "Reference" "U418"
+			(at 194.31 125.6598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 128.1998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7fad37a-5f70-4570-b8f7-69f824afc41e")
+		)
+		(pin "3"
+			(uuid "b6336b65-a365-4ed1-97db-49b1bfa7e4be")
+		)
+		(pin "4"
+			(uuid "73018344-bbe1-4c97-afbe-6eabed20da2b")
+		)
+		(pin "2"
+			(uuid "3052717e-526a-4a27-ba47-906793ce612d")
+		)
+		(pin "5"
+			(uuid "4c9f1fda-a41a-488a-9035-55b5be2e6f23")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 382.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26489752-164c-4715-bafb-d6acc0fa6416")
+		(property "Reference" "U459"
+			(at 29.21 375.8498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 378.3898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9a1ca3b-532c-4083-b23c-67507ddcac1d")
+		)
+		(pin "3"
+			(uuid "1861552c-2051-4685-8511-2202ceb9cf65")
+		)
+		(pin "4"
+			(uuid "fbb2d189-bb5a-4150-a522-eb51878615ad")
+		)
+		(pin "2"
+			(uuid "0e1063f3-2b6e-4897-9ca2-2971397cea46")
+		)
+		(pin "5"
+			(uuid "316cd4c1-dbf0-4451-bdc7-787049566d6c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U459")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ebdbc1f-6482-4c59-adc9-594fb44d6317")
+		(property "Reference" "U432"
+			(at 81.28 194.2398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 196.7798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f4b93f1-4d3a-4b94-b67a-196cb1ced1c7")
+		)
+		(pin "3"
+			(uuid "f50df249-27dc-474a-aa00-a7095c574393")
+		)
+		(pin "4"
+			(uuid "35ba6dd5-927f-49c8-861f-7d63828e5e60")
+		)
+		(pin "2"
+			(uuid "ba731526-70e9-4d97-a7bc-871686f5e479")
+		)
+		(pin "5"
+			(uuid "72cca18b-bf40-4e37-bf79-2ae4e047a683")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U432")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337c3bbf-789f-4313-9057-4c221d6faf8f")
+		(property "Reference" "U435"
+			(at 29.21 227.2598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 229.7998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d891f038-ae5b-4dde-bf72-4c0e22ac89c6")
+		)
+		(pin "3"
+			(uuid "af7ac416-f082-4bff-9cfd-ca1dea54f1a2")
+		)
+		(pin "4"
+			(uuid "a754cc17-3163-471d-a6c3-cc2ee6e1dd91")
+		)
+		(pin "2"
+			(uuid "5b354858-9ab2-448a-9d72-a23b1f608d6d")
+		)
+		(pin "5"
+			(uuid "d4bfe1dd-a62a-46d3-a52d-66d426d37c86")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U435")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 280.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34110925-c664-436d-b5f7-93df2c53df0c")
+		(property "Reference" "U442"
+			(at 194.31 274.2498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 276.7898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76aac1d8-3e70-4069-b040-af033d7db880")
+		)
+		(pin "3"
+			(uuid "e2087201-165d-4117-b0f9-0eb5b332bd90")
+		)
+		(pin "4"
+			(uuid "86694efa-9d0e-4059-86a3-c80cc0e7b27f")
+		)
+		(pin "2"
+			(uuid "5611e40e-804e-4bd7-8689-43322863efe2")
+		)
+		(pin "5"
+			(uuid "621951fd-a764-49a2-bfbf-077e18473b06")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U442")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35cb2fc1-e8e1-4728-9e6a-3fbbfb087b05")
+		(property "Reference" "U429"
+			(at -21.59 192.9698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 195.5098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6a4e86f-278e-41e2-b94e-10b3a609b488")
+		)
+		(pin "3"
+			(uuid "89769386-d72e-49ca-8a74-c7a4cd8e15c4")
+		)
+		(pin "4"
+			(uuid "2e018c1b-1480-4395-969f-449207b74457")
+		)
+		(pin "2"
+			(uuid "51802f01-490e-440d-8bc9-4d219f50ff9c")
+		)
+		(pin "5"
+			(uuid "f696d584-9ce4-4da5-a0e3-a5ff13428dfd")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U429")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a15f0d8-0280-458d-9f0f-205e8d2173e7")
+		(property "Reference" "U433"
+			(at -21.59 225.9898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 228.5298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "766e8298-d506-441e-9d7f-7271515bb213")
+		)
+		(pin "3"
+			(uuid "f0b641d1-d041-4ae5-b51a-f05556656fd3")
+		)
+		(pin "4"
+			(uuid "9bec7900-de33-49a6-81ab-3f5e45e84c16")
+		)
+		(pin "2"
+			(uuid "5163e258-1f8f-49bb-a429-c27c132ca9b9")
+		)
+		(pin "5"
+			(uuid "54a8476e-2378-42fd-a57c-267f7ac1830a")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U433")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40eddf9f-4ec6-41a3-90fc-c447a652168e")
+		(property "Reference" "U424"
+			(at 81.28 157.4098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 159.9498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce48da01-7a45-4558-bf5f-ad14424d0e67")
+		)
+		(pin "3"
+			(uuid "5fe62941-453b-43a1-a231-81e700d07574")
+		)
+		(pin "4"
+			(uuid "307519c5-2e7f-4db8-b527-a47b0c3ca55b")
+		)
+		(pin "2"
+			(uuid "e7c531ba-b75f-41c6-afe1-5549850be01e")
+		)
+		(pin "5"
+			(uuid "22bacb23-1112-4e74-a16e-adfb238bf799")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U424")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f9b761-bc7c-427e-a290-b7682e374e5e")
+		(property "Reference" "U456"
+			(at 81.28 358.0698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 360.6098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35661192-1714-4256-a41c-40d458814205")
+		)
+		(pin "3"
+			(uuid "97a61909-d0b3-48bf-b46d-ccec97077413")
+		)
+		(pin "4"
+			(uuid "0e723a85-490f-47a0-91d8-f960223d33f6")
+		)
+		(pin "2"
+			(uuid "c0b0adce-015e-4636-98f9-64ee01f7d8fa")
+		)
+		(pin "5"
+			(uuid "cf936eea-b8f6-4f92-b9b2-c18e61bab782")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U456")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 363.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451f2fa1-0013-4f21-8230-8a42c513be4e")
+		(property "Reference" "U454"
+			(at 194.31 356.7998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 359.3398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a014d12-b771-4eb1-8c2e-16a1afea127e")
+		)
+		(pin "3"
+			(uuid "d3f47113-1bd9-4ea6-bb8a-8aea0529d2d6")
+		)
+		(pin "4"
+			(uuid "8b69fae5-0284-4c2b-9ddd-bfe270bce0e0")
+		)
+		(pin "2"
+			(uuid "3ab93739-5e1e-411c-a95d-6e093699163e")
+		)
+		(pin "5"
+			(uuid "0961d0bd-9742-4e26-b4ac-380e7773ad39")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U454")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452bd6aa-e96e-45ed-b372-f59130480835")
+		(property "Reference" "U440"
+			(at 81.28 257.7398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 260.2798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f9714ba-c103-4469-856d-dfb74734ec05")
+		)
+		(pin "3"
+			(uuid "f7ef6593-206f-4e35-8a1d-f6aa7cbff07c")
+		)
+		(pin "4"
+			(uuid "07270ab4-ef02-443f-a38e-700683b877c5")
+		)
+		(pin "2"
+			(uuid "5bdbc70e-35f0-4da2-b3f2-f42438705c69")
+		)
+		(pin "5"
+			(uuid "15bebfa9-2bd7-449e-802c-0d6220047e28")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U440")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 334.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a86394c-b927-4c60-a62f-f6461577cb95")
+		(property "Reference" "U452"
+			(at 81.28 327.5898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 330.1298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba1e7e2a-09a2-4613-b4fe-2fdc620bb099")
+		)
+		(pin "3"
+			(uuid "4c4f8e1c-5bb1-45de-956f-2efff565f98f")
+		)
+		(pin "4"
+			(uuid "5b90840e-146c-4e05-8c1e-6dcae131ef68")
+		)
+		(pin "2"
+			(uuid "a499817e-a237-48e7-92f8-8ab7ec004cbd")
+		)
+		(pin "5"
+			(uuid "ddbb7416-f7b1-4e79-b401-42f2041634df")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U452")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 401.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ba7429-83b5-4de9-af65-7ba9a687000e")
+		(property "Reference" "U463"
+			(at 29.21 394.8998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 397.4398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75299325-7f82-4b7b-88e2-ff582b12c374")
+		)
+		(pin "3"
+			(uuid "4a9360d2-bea6-4b95-a103-2efa75a6b9e8")
+		)
+		(pin "4"
+			(uuid "5d8c6279-1a7c-44a0-a1f2-bea92eafc5d8")
+		)
+		(pin "2"
+			(uuid "c404ca87-035e-4338-8dae-0559a52b3da9")
+		)
+		(pin "5"
+			(uuid "761f363f-422d-44f7-aa82-18f5fbfead79")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U463")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53455b41-fa7f-4c23-9d0d-c55007f44759")
+		(property "Reference" "U421"
+			(at -21.59 156.1398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 158.6798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb058152-607f-4fea-8fd8-f08ac841a6e2")
+		)
+		(pin "3"
+			(uuid "53147001-11a7-43f5-b2f1-5a39b8bfa25e")
+		)
+		(pin "4"
+			(uuid "104116af-64ea-4319-9e32-b3c176d0618e")
+		)
+		(pin "2"
+			(uuid "2ad7f74b-30df-4ae1-bf41-335f9d08092f")
+		)
+		(pin "5"
+			(uuid "0665bf82-737f-4ec6-8436-c536043d8631")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U421")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53bd3ead-bfd0-45ac-8b43-ca36e026d282")
+		(property "Reference" "U420"
+			(at 81.28 126.9298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 129.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5610ae5e-5067-4515-b05f-61f03a36df00")
+		)
+		(pin "3"
+			(uuid "d94992fa-4e67-45cc-9604-37cf85a173e6")
+		)
+		(pin "4"
+			(uuid "bed321df-5af6-4f3e-a686-63f60c477c26")
+		)
+		(pin "2"
+			(uuid "12d73773-570e-4e91-a382-87b863204315")
+		)
+		(pin "5"
+			(uuid "05ddad55-33b0-43ac-9f53-12ee47cb666f")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d4d29f-f677-4bd2-a649-10108b4d3599")
+		(property "Reference" "U404"
+			(at 81.28 26.5998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 29.1398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c5ffdf8-c0fa-4192-84ca-2acac67dbc5b")
+		)
+		(pin "3"
+			(uuid "1d1e4e56-55c8-4add-8f5a-3ca762340f95")
+		)
+		(pin "4"
+			(uuid "fbf49b41-ef3c-4d5d-bbab-8c13195dcd1a")
+		)
+		(pin "2"
+			(uuid "52fa9221-dd5d-49fe-97f2-530a9e00e14e")
+		)
+		(pin "5"
+			(uuid "a9024914-32da-4f83-b452-c43d0a8f8d02")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 382.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a22f02a-2e83-4b4b-985e-9f330636912e")
+		(property "Reference" "U460"
+			(at 81.28 375.8498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 378.3898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16c364f3-40c3-4724-aa60-aa96dea7b71c")
+		)
+		(pin "3"
+			(uuid "ced2ce6e-a01d-4688-bbc9-4b9aa76ca1d5")
+		)
+		(pin "4"
+			(uuid "3caabf1d-bfe8-4a2b-91c7-d24913c24fb3")
+		)
+		(pin "2"
+			(uuid "d2e3d538-84cd-4bb6-82c2-3408937eaa7a")
+		)
+		(pin "5"
+			(uuid "63d0b7ad-d43e-47c1-9fd5-941b7c114ad4")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U460")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6230e04c-fed7-40c0-8d83-b6de360c24e3")
+		(property "Reference" "U448"
+			(at 81.28 294.5698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 297.1098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8020d032-ae98-42f6-a60e-79712b26ef0f")
+		)
+		(pin "3"
+			(uuid "05e0e92a-4f30-4ae9-9a46-65d64f4f77a4")
+		)
+		(pin "4"
+			(uuid "522a6393-ccf4-440f-9412-e66c1c879783")
+		)
+		(pin "2"
+			(uuid "247647d2-cc17-4cd8-b02b-42cc3f224ea0")
+		)
+		(pin "5"
+			(uuid "9112d825-0c5a-4da9-8cde-8157992261c3")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U448")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 400.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67dad063-c3de-4ae3-9b65-1db62577a836")
+		(property "Reference" "U462"
+			(at 194.31 393.6298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 396.1698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edff567f-a804-481b-82a7-5ef3d0f77aae")
+		)
+		(pin "3"
+			(uuid "b9df6bd4-7234-4354-bb77-558584e4d171")
+		)
+		(pin "4"
+			(uuid "1c1153f6-83c7-437b-a60f-2b58180cc2f2")
+		)
+		(pin "2"
+			(uuid "61e7f392-184c-4073-b328-2cf4abf2207f")
+		)
+		(pin "5"
+			(uuid "9136284e-a6b0-4ee7-aa91-5cf474dd719c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79ae24d2-b396-4865-a821-754f4173d1c3")
+		(property "Reference" "U449"
+			(at -21.59 326.3198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 328.8598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccbc1df1-d7fa-40eb-b4b2-a17a63afbb60")
+		)
+		(pin "3"
+			(uuid "563eae2a-db02-4711-95ff-8f9de00073a0")
+		)
+		(pin "4"
+			(uuid "6fdb2661-bcce-4644-8d1e-89f3fd39412e")
+		)
+		(pin "2"
+			(uuid "013a8a28-1813-4563-9ad1-643155b76982")
+		)
+		(pin "5"
+			(uuid "6cfa1c2f-8a20-4446-b6f3-33a3398ad13f")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U449")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aeb7cf0-240e-46c6-9fd8-29873c580d3c")
+		(property "Reference" "U402"
+			(at 194.31 25.3298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 27.8698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "965b2719-8c58-499b-93c6-8df4f1b04f91")
+		)
+		(pin "3"
+			(uuid "d5d46273-b580-4866-80ce-5de5564d9520")
+		)
+		(pin "4"
+			(uuid "d7f02bcc-7a42-4bd3-b5ae-920d54498eb5")
+		)
+		(pin "2"
+			(uuid "b2169c7c-98f8-43a7-997c-c0a8b8526e78")
+		)
+		(pin "5"
+			(uuid "a4d39581-5d1c-4b9a-8809-c2d17f9187c2")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dac3173-da82-4c28-a749-ad02410ed6e1")
+		(property "Reference" "U450"
+			(at 194.31 326.3198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 328.8598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df082738-40ee-477c-ac3c-71a1aec1cd59")
+		)
+		(pin "3"
+			(uuid "97cb7580-9d95-4ab3-9ebe-8054cf293c84")
+		)
+		(pin "4"
+			(uuid "ce9a521e-f2bb-4266-894c-6f9cfbd6ea13")
+		)
+		(pin "2"
+			(uuid "adb8eb6a-75d3-495f-b624-f018b1d1a418")
+		)
+		(pin "5"
+			(uuid "efa72fb1-8979-4938-a08d-8707b981887f")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U450")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8757d65e-bd71-40df-babe-17720624a3ed")
+		(property "Reference" "U414"
+			(at 194.31 92.6398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 95.1798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c073e08-b89b-4722-8ed2-d3402a6c129c")
+		)
+		(pin "3"
+			(uuid "1c4dccee-4292-43e3-9da7-459a48895d81")
+		)
+		(pin "4"
+			(uuid "4150dfc1-50b8-4024-b8b6-14a318ba00cb")
+		)
+		(pin "2"
+			(uuid "e17bd73e-4ea2-4614-8df4-fa77e75e420b")
+		)
+		(pin "5"
+			(uuid "7d54db58-cbdd-46bb-9edb-7713b0fa85f2")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4bfa47-2e93-4d29-b55c-86422399d5ec")
+		(property "Reference" "U426"
+			(at 194.31 173.9198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 176.4598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d85869a-7ed9-44cf-a341-48179565e59e")
+		)
+		(pin "3"
+			(uuid "f13e3b71-3d83-41c5-bd66-8526b3071718")
+		)
+		(pin "4"
+			(uuid "9ca37191-6193-496f-a538-80ea27e0e6c9")
+		)
+		(pin "2"
+			(uuid "652171ec-44c4-4b99-bf44-91978c6c5c0d")
+		)
+		(pin "5"
+			(uuid "ed4be53d-3707-4fb6-bd7d-05ec1b45215c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U426")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948d5e69-f95a-45e2-8082-0dc6ada02b5d")
+		(property "Reference" "U413"
+			(at -21.59 92.6398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 95.1798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca14121a-e20f-4194-8250-804400f68df4")
+		)
+		(pin "3"
+			(uuid "4ba380cd-5a19-4eb4-9139-14aacf920071")
+		)
+		(pin "4"
+			(uuid "677a5f27-7f59-4574-962b-7f5deec10212")
+		)
+		(pin "2"
+			(uuid "c1b2cf81-ffea-442c-8f49-d4f44d7a4390")
+		)
+		(pin "5"
+			(uuid "ec575c71-6aca-4c89-840f-372ce7853233")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998a9f09-d069-4057-a9fa-de23c7ed38b4")
+		(property "Reference" "U406"
+			(at 194.31 55.8098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 58.3498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e52cc03-04e8-447b-b224-3a740147da64")
+		)
+		(pin "3"
+			(uuid "ae33153c-631d-4075-adb8-308311d0e21c")
+		)
+		(pin "4"
+			(uuid "bc0e4874-603e-4b87-a076-fe078a22b921")
+		)
+		(pin "2"
+			(uuid "bc920021-ca63-477a-a96f-bb0743c6b403")
+		)
+		(pin "5"
+			(uuid "6f0ee5cc-0806-4ad4-aa70-af4dd17cca48")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 334.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ce2741-c006-44de-9ff7-cbd9819304b1")
+		(property "Reference" "U451"
+			(at 29.21 327.5898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 330.1298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07e6bfa2-5bf0-4f21-af08-b299d7a9ba84")
+		)
+		(pin "3"
+			(uuid "11025e58-ceac-42c4-9e54-8a909ee3fdcb")
+		)
+		(pin "4"
+			(uuid "21e17040-e32a-41ea-9f4b-2133fa0208ff")
+		)
+		(pin "2"
+			(uuid "8341a5f3-a1f2-4ffe-971d-ed137046148d")
+		)
+		(pin "5"
+			(uuid "d80df07f-a837-40f4-ba90-6bc2c3c6ebdb")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U451")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ee8cbe6-832b-4743-bb87-cb2921caeb5b")
+		(property "Reference" "U409"
+			(at -21.59 73.5898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 76.1298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64c8e4d1-aa4b-48f1-bca7-4b1bff25d1b7")
+		)
+		(pin "3"
+			(uuid "0568e75d-9ef4-4acf-9771-8752acc62bad")
+		)
+		(pin "4"
+			(uuid "f1b27c17-e436-4300-9dc6-8513766db76a")
+		)
+		(pin "2"
+			(uuid "fb551ee3-8313-408c-ab2c-97ba390d8b5b")
+		)
+		(pin "5"
+			(uuid "7d0d0c33-fc80-47ea-9452-fda65a733269")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab1583ed-1026-439d-9894-95f8acd709b3")
+		(property "Reference" "U447"
+			(at 29.21 294.5698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 297.1098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "370c81b8-a89a-4f00-9f5e-882721778775")
+		)
+		(pin "3"
+			(uuid "a547041a-873e-487b-ba9e-e3854ddb0d02")
+		)
+		(pin "4"
+			(uuid "7130245a-2a16-4c62-998c-1b57a5cf28cc")
+		)
+		(pin "2"
+			(uuid "1b2355f3-0a99-43c5-a7e8-222553bded26")
+		)
+		(pin "5"
+			(uuid "aa3f4491-48ec-4e1e-92ef-6cbc0848a2e1")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U447")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0567259-4bdb-4d11-be13-44ed38d5977e")
+		(property "Reference" "U431"
+			(at 29.21 194.2398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 196.7798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25012851-f56a-4efd-976a-6d36854202da")
+		)
+		(pin "3"
+			(uuid "bc4a2570-1f79-41f6-a6bb-e944a270a393")
+		)
+		(pin "4"
+			(uuid "c3e328fa-bfc1-4021-b46d-6ba876d94957")
+		)
+		(pin "2"
+			(uuid "7e9b36e5-f114-49b4-9226-31b7e42ec8bc")
+		)
+		(pin "5"
+			(uuid "b4cb3bc1-4e7c-47d1-9703-f076da57fb1d")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U431")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b06683b0-a2a9-4024-b19b-fe76484d1bbc")
+		(property "Reference" "U415"
+			(at 29.21 93.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 96.4498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cf26ea5-86ce-4d57-b48a-d598c2461884")
+		)
+		(pin "3"
+			(uuid "a8adc10d-4d70-4916-808c-ba796c937360")
+		)
+		(pin "4"
+			(uuid "fddce2f6-c424-4920-80c2-a4350b67de86")
+		)
+		(pin "2"
+			(uuid "b3f044cb-2e88-4247-be61-e94c11a7ce83")
+		)
+		(pin "5"
+			(uuid "fbef96e3-8595-4cb5-8fb1-ba4cf95ed82a")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 299.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b069e060-d4f8-4744-b2a6-2ce031617b8a")
+		(property "Reference" "U445"
+			(at -21.59 293.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 295.8398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34131a5c-fd7e-41de-bacb-4d7a7510f789")
+		)
+		(pin "3"
+			(uuid "37f60896-60a2-497b-bfc0-79ef5d0b3269")
+		)
+		(pin "4"
+			(uuid "7dedac49-1a62-4664-a5df-713ac64ee246")
+		)
+		(pin "2"
+			(uuid "77f7b836-e4bb-4834-8e60-d2f103d39af4")
+		)
+		(pin "5"
+			(uuid "c53deb3a-fddd-4202-afe8-ccbc6411877d")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U445")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3df1117-3a8b-458d-b496-b63856b0143d")
+		(property "Reference" "U423"
+			(at 29.21 157.4098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 159.9498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc1bba65-91aa-47eb-87f1-cc106f1c8f25")
+		)
+		(pin "3"
+			(uuid "75a42166-92e2-49b4-bfe3-3b7d40bf92f1")
+		)
+		(pin "4"
+			(uuid "175f8c89-7df1-4de5-8dfa-1a5ebc8fd17d")
+		)
+		(pin "2"
+			(uuid "ebf08127-f6d7-4ea0-ac09-a0c916d150aa")
+		)
+		(pin "5"
+			(uuid "3ed56b0c-d6dc-46b3-8ae3-bf2ce09af9f5")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U423")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4f6a52e-a91f-4487-943c-927b75df5560")
+		(property "Reference" "U416"
+			(at 81.28 93.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 96.4498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "651872ca-700f-4a5f-9246-2a759b62a266")
+		)
+		(pin "3"
+			(uuid "9ff0f853-2d34-4556-bd7e-b6de88d39856")
+		)
+		(pin "4"
+			(uuid "2679d119-9704-41aa-a3f1-baed143c3d5a")
+		)
+		(pin "2"
+			(uuid "254141c5-df68-468f-9d4d-eb1b58eb8977")
+		)
+		(pin "5"
+			(uuid "278e7628-afc1-4596-bff0-85315ff4a50a")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 381 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8008658-8d3c-4a29-8e6d-ec109774a783")
+		(property "Reference" "U458"
+			(at 194.31 374.5798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 377.1198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11461793-e1aa-47c3-859e-0524c7596da4")
+		)
+		(pin "3"
+			(uuid "9f91a68a-af19-4cd9-8fa7-58ab288cb650")
+		)
+		(pin "4"
+			(uuid "698403c1-253a-446d-912e-3fcbe94ce28f")
+		)
+		(pin "2"
+			(uuid "9022271d-8d8e-4dcb-8636-27cabec90de2")
+		)
+		(pin "5"
+			(uuid "b83f0291-913d-4d4f-abc8-afb29cfe815a")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U458")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 401.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcbf1d81-65a6-4cfe-933c-e90d73d65bc5")
+		(property "Reference" "U464"
+			(at 81.28 394.8998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 397.4398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b890680d-7d68-43ee-90fc-fffd12e32154")
+		)
+		(pin "3"
+			(uuid "39378045-1795-41dd-bb04-3e5de6e62ce3")
+		)
+		(pin "4"
+			(uuid "4413fd99-fe1e-47a6-b028-705941b26296")
+		)
+		(pin "2"
+			(uuid "4ffd06a5-8afd-41cd-a2f3-5ad856a6312e")
+		)
+		(pin "5"
+			(uuid "aea44752-a8a5-4b67-a068-b271f2ebed75")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U464")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 363.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be15f44f-2b5f-41f7-983d-6efc30294ba1")
+		(property "Reference" "U453"
+			(at -21.59 356.7998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 359.3398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a67f48f0-e497-4c02-a989-3ff2e9bd1634")
+		)
+		(pin "3"
+			(uuid "4a5acefa-ecee-48e4-8ca7-80396faba01f")
+		)
+		(pin "4"
+			(uuid "daae232c-8647-4da8-8a9f-f808b9392e66")
+		)
+		(pin "2"
+			(uuid "08a81ee6-ba28-40af-a6cf-7828b2dbcb32")
+		)
+		(pin "5"
+			(uuid "4518ee82-a6d7-451e-9423-13cce90c7e40")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U453")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef0564b-fb7d-4b59-a956-211957a76c91")
+		(property "Reference" "U444"
+			(at 81.28 275.5198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 278.0598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01fc7228-5085-459a-9b28-b90618785b96")
+		)
+		(pin "3"
+			(uuid "10ac7a0e-4908-4b3b-8a74-ec4a0348fd4a")
+		)
+		(pin "4"
+			(uuid "48391c1e-9d8d-4631-8507-8106652ec9d4")
+		)
+		(pin "2"
+			(uuid "248cfab3-7b80-4d4f-b1d9-839aea593388")
+		)
+		(pin "5"
+			(uuid "ef84b5f9-8248-48cf-9de0-6ca5aa165404")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U444")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3baf5b6-3b3d-4d72-9f5d-2298baefb240")
+		(property "Reference" "U436"
+			(at 81.28 227.2598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 229.7998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11b0f507-deeb-4ef8-8102-4582494920c8")
+		)
+		(pin "3"
+			(uuid "da2f7f29-e656-4030-94b1-622d8f13e07e")
+		)
+		(pin "4"
+			(uuid "bc74d66b-17d0-407f-aac3-7b436ccae21c")
+		)
+		(pin "2"
+			(uuid "7f9f99db-6aca-40fe-9836-1feeb7a91ee6")
+		)
+		(pin "5"
+			(uuid "b23fa292-efad-40d2-a083-3b05c7099169")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U436")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e10fb9-968a-4e55-9e63-0d2db07a00f3")
+		(property "Reference" "U437"
+			(at -21.59 256.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 259.0098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5e56978-b409-47df-befb-338373a2f24b")
+		)
+		(pin "3"
+			(uuid "19245b8e-49e3-4d50-8f88-d4b1a6968a31")
+		)
+		(pin "4"
+			(uuid "629ad12e-be8c-4e54-906b-352308e92e82")
+		)
+		(pin "2"
+			(uuid "9d47b1d0-016b-4896-9f23-db33f348f0bc")
+		)
+		(pin "5"
+			(uuid "6ba4d3cd-0a8e-451d-9e44-ca151897ea5c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U437")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a6b60f-7b28-4d2f-9f25-20c3bd74262e")
+		(property "Reference" "U411"
+			(at 29.21 74.8598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 77.3998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0ee696e-2db1-4308-af12-93b8616f9c63")
+		)
+		(pin "3"
+			(uuid "13c5b684-864f-4c2c-b6ec-5c17d606be73")
+		)
+		(pin "4"
+			(uuid "f37bdcd9-7c54-4726-abfe-dd8966a3755a")
+		)
+		(pin "2"
+			(uuid "dc44c4fd-fd11-463e-92ca-9caca38b652d")
+		)
+		(pin "5"
+			(uuid "0c47acc3-99f0-44aa-ab34-a3c2878b51fb")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80540c2-9664-49cb-8e4a-2e27a41ca2b5")
+		(property "Reference" "U407"
+			(at 29.21 57.0798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 59.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5527b42-2fd7-45a7-9db4-e3d058b03c90")
+		)
+		(pin "3"
+			(uuid "d80cda95-deab-416b-a477-16e927968623")
+		)
+		(pin "4"
+			(uuid "ca97a8a9-8650-4c49-b4ce-bba9e6b5c20b")
+		)
+		(pin "2"
+			(uuid "eb88d87b-ec50-4763-a870-799b6c1f181e")
+		)
+		(pin "5"
+			(uuid "c2cb4033-c410-4715-8c90-cc4caf2c5390")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c82ffbb0-63ab-4f08-bf2c-9c092f59d521")
+		(property "Reference" "U428"
+			(at 81.28 175.1898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 177.7298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b1dee70-f797-427b-b169-2a1c90c127e0")
+		)
+		(pin "3"
+			(uuid "ed95766a-4fa9-4c04-b0ec-35df8eca932b")
+		)
+		(pin "4"
+			(uuid "221f7cd1-79d3-4c30-9d91-2112f77c5fce")
+		)
+		(pin "2"
+			(uuid "1c016d34-b7ac-4704-97ad-eee22e1a3d91")
+		)
+		(pin "5"
+			(uuid "d94dbf13-a006-4a38-98ae-1a7b2de7d95f")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U428")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 299.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c888947a-3316-4215-9847-8ff2b17af6fe")
+		(property "Reference" "U446"
+			(at 194.31 293.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 295.8398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d49e4de1-7077-4ac0-914c-2dc3b2e27072")
+		)
+		(pin "3"
+			(uuid "87c5c79e-6a9b-451e-becc-d737816c26a8")
+		)
+		(pin "4"
+			(uuid "ec620a70-3e27-45bb-9128-e0abe030de07")
+		)
+		(pin "2"
+			(uuid "6b649f19-b223-4cb4-84e2-509f290d0e83")
+		)
+		(pin "5"
+			(uuid "c73c5b2e-571c-45a3-b7c0-621f7b48cf26")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U446")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 381 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca20c442-3aac-4bb4-8d74-1426ee31a524")
+		(property "Reference" "U457"
+			(at -21.59 374.5798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 377.1198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "867bad22-284f-47bf-a551-9b087fa1fc21")
+		)
+		(pin "3"
+			(uuid "fa52a539-7558-40dd-a233-4d79915128e2")
+		)
+		(pin "4"
+			(uuid "dc659b3a-413c-43a3-b418-dc8f1d4199a3")
+		)
+		(pin "2"
+			(uuid "5de677fa-5640-4b4b-859d-1ad6664b41dc")
+		)
+		(pin "5"
+			(uuid "ca7716c3-56d9-42ea-b1aa-fcdfcc93c49f")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U457")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca84cfed-cfc4-418a-8fce-7eccc5c021e3")
+		(property "Reference" "U443"
+			(at 29.21 275.5198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 278.0598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d54aa9d-6372-432b-944a-a5f43031d212")
+		)
+		(pin "3"
+			(uuid "217ebd33-83c9-41a5-8df2-570137c1a2f7")
+		)
+		(pin "4"
+			(uuid "6e9848a1-3284-4136-8ac8-7dcf6eb4d57a")
+		)
+		(pin "2"
+			(uuid "229f9e0c-0a2a-46d8-a555-79202d283bc8")
+		)
+		(pin "5"
+			(uuid "82f135da-411b-4b26-861c-00ab6809b7a1")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U443")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc84ceda-af13-4b55-832b-5dcd0f399f57")
+		(property "Reference" "U425"
+			(at -21.59 173.9198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 176.4598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dd45f73-c776-4b07-a3c0-ad1ea838c620")
+		)
+		(pin "3"
+			(uuid "9b17539f-9420-4f87-affa-108b14304e02")
+		)
+		(pin "4"
+			(uuid "1f376d11-7a7a-4660-8da3-1f5162d1fd3c")
+		)
+		(pin "2"
+			(uuid "92f41e99-1233-4473-928d-950741d1659c")
+		)
+		(pin "5"
+			(uuid "b5fd5131-1c2c-4048-96b2-8ecc5beecdc4")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4b4de85-a027-4912-b865-14289f3cf426")
+		(property "Reference" "U422"
+			(at 194.31 156.1398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 158.6798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0923beba-2425-45ea-bc54-ca6d86b38167")
+		)
+		(pin "3"
+			(uuid "b56aeef4-b6a9-4345-9ae0-e93fc5c5c506")
+		)
+		(pin "4"
+			(uuid "9d838166-997e-4697-af68-4f3ec573b27a")
+		)
+		(pin "2"
+			(uuid "f73b7e7a-fba6-4d9d-8104-0672f492f398")
+		)
+		(pin "5"
+			(uuid "052d3e73-b171-4f94-8dfe-28abaa9913d3")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d914d647-427a-4557-9dc5-f32fe8a4282a")
+		(property "Reference" "U403"
+			(at 29.21 26.5998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 29.1398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c39789-268f-4922-8979-31f021835fa7")
+		)
+		(pin "3"
+			(uuid "5904a39e-4d09-4d06-b3cc-0fc1e35bdc1b")
+		)
+		(pin "4"
+			(uuid "d554bd39-0fbd-474d-b218-a88d52ef87d1")
+		)
+		(pin "2"
+			(uuid "8d5952ad-5100-4642-81b4-2f21f18bbfc4")
+		)
+		(pin "5"
+			(uuid "0b8341bf-60ed-4d6f-8695-150df0e51f18")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e99edf-8bb9-4866-a4e5-558ff820c183")
+		(property "Reference" "U401"
+			(at -21.59 25.3298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 27.8698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95fe073b-fef7-4fdd-b631-159d81183a7f")
+		)
+		(pin "3"
+			(uuid "73ef9e9a-d0a3-4056-9619-e1a531b6bc3b")
+		)
+		(pin "4"
+			(uuid "7692f0f2-ad2d-42bf-a8a6-c9f7b9ae472b")
+		)
+		(pin "2"
+			(uuid "5710f09e-e655-45aa-a14f-868459c1e2b5")
+		)
+		(pin "5"
+			(uuid "6fa855f4-256e-4e1e-8725-4c10736221be")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 400.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e386f1ad-523c-4235-9e0a-63e0b56fa4a2")
+		(property "Reference" "U461"
+			(at -21.59 393.6298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 396.1698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f224a620-cd2f-4fd1-8237-ef948285ccc8")
+		)
+		(pin "3"
+			(uuid "62b7a0b3-51cf-4454-a37d-ef144cbb6f47")
+		)
+		(pin "4"
+			(uuid "147b0260-be3a-4cc8-8e18-1c5c6a6951fa")
+		)
+		(pin "2"
+			(uuid "63229bb0-586d-4a10-bd6f-4b89be10bc6a")
+		)
+		(pin "5"
+			(uuid "c5943263-8dc6-4e82-b230-8fae39c46afc")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U461")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 67.31 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8bb6ea1-2568-484b-bbb8-5b1b2f35d3ac")
+		(property "Reference" "U408"
+			(at 81.28 57.0798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 81.28 59.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 67.31 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e820afed-c691-485b-82f5-0ca9b8e4b5cc")
+		)
+		(pin "3"
+			(uuid "1aa3a8b9-cae7-47db-8949-defd0cdb07a4")
+		)
+		(pin "4"
+			(uuid "8cb061b9-78f3-4868-84ca-22096426ab59")
+		)
+		(pin "2"
+			(uuid "ebe9d70c-22a6-4235-b99d-6bd74317aba0")
+		)
+		(pin "5"
+			(uuid "a0e341e8-caf2-49ea-b470-eebe1b2fad69")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea587fa3-e600-49d8-95c5-e7fb1e2d8461")
+		(property "Reference" "U438"
+			(at 194.31 256.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 259.0098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea4f259d-bc11-4fd3-a2c1-f42c3c1df93b")
+		)
+		(pin "3"
+			(uuid "fd0d5ed7-22b5-4147-bd6a-087eca56037e")
+		)
+		(pin "4"
+			(uuid "16da1ea0-38f3-4ec5-8e3f-bd3916eeca88")
+		)
+		(pin "2"
+			(uuid "321d7d4f-7538-4a2f-89ac-3dd6dc350c95")
+		)
+		(pin "5"
+			(uuid "9440992e-1449-4d27-a45c-e43a8657ef55")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U438")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at -35.56 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effe1af1-de95-4f1d-b7e3-e4d572190604")
+		(property "Reference" "U417"
+			(at -21.59 125.6598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at -21.59 128.1998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at -35.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at -35.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at -35.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2590195-aaf1-446f-8219-b1a217cb40b3")
+		)
+		(pin "3"
+			(uuid "ce63cae8-9fd2-4e68-928b-2b5ac1784cbb")
+		)
+		(pin "4"
+			(uuid "4e23001f-b5f6-485d-ac56-3b6a1e29d856")
+		)
+		(pin "2"
+			(uuid "c0ae9a39-98a6-481d-ae72-fb50948bc065")
+		)
+		(pin "5"
+			(uuid "8b5ac1a8-e702-4087-80f0-1ea8ebd20cca")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06d0670-3a1e-4a84-a6d5-8f8d8d7cd043")
+		(property "Reference" "U455"
+			(at 29.21 358.0698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 360.6098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68a3fc25-fe85-4588-9035-ed48beb43101")
+		)
+		(pin "3"
+			(uuid "b7071866-dc93-4bca-97d3-4720026c885b")
+		)
+		(pin "4"
+			(uuid "e49b8dfb-1d21-4e9e-8963-fc36153c4bfa")
+		)
+		(pin "2"
+			(uuid "d2bd6a2f-604a-4a24-a96e-9b933996b43f")
+		)
+		(pin "5"
+			(uuid "5d26db33-d191-44e3-a3ff-4b843e5e9832")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U455")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf283eb-2391-4b31-ad5c-75a1a0482d48")
+		(property "Reference" "U419"
+			(at 29.21 126.9298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 129.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3645602-3121-4b6b-b7bf-ada4b04b8c47")
+		)
+		(pin "3"
+			(uuid "286ee10d-e13b-4603-9620-e6b88817fc4a")
+		)
+		(pin "4"
+			(uuid "944eee58-14b2-4339-a9ac-be2757c7d587")
+		)
+		(pin "2"
+			(uuid "2d4ec4f5-e96d-4dce-8bcf-51982ba4af84")
+		)
+		(pin "5"
+			(uuid "bbd35d8a-cb30-46a0-8a7a-9636a9e1ad89")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcad351-6c84-40c1-9fe0-c3d447e10df1")
+		(property "Reference" "U427"
+			(at 29.21 175.1898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 177.7298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "626dbd45-6b64-4b52-8871-bda65f0b7408")
+		)
+		(pin "3"
+			(uuid "44eec30f-fd19-46c0-91a1-72202ee94731")
+		)
+		(pin "4"
+			(uuid "b7d3c111-0ee6-4731-ae3f-6f6c945b342e")
+		)
+		(pin "2"
+			(uuid "c58bc101-5beb-49a3-a950-684d56806071")
+		)
+		(pin "5"
+			(uuid "88847efa-3264-4160-845a-b355d5828252")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U427")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 180.34 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdff5c18-9644-405d-8a00-14701cc555dc")
+		(property "Reference" "U434"
+			(at 194.31 225.9898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 194.31 228.5298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 180.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 180.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 180.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15bd66be-beb2-4b79-bad7-6a4d224dcc02")
+		)
+		(pin "3"
+			(uuid "e71948d2-bc80-4163-9b2b-b3c28e6ed7ae")
+		)
+		(pin "4"
+			(uuid "50ce6b7f-afb7-46ad-9caf-5eb7e5154a11")
+		)
+		(pin "2"
+			(uuid "e96323fe-c6fb-4bcf-b350-49031cae86c2")
+		)
+		(pin "5"
+			(uuid "870b4bfe-ba19-4e12-ac36-6300213e7b9c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U434")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 15.24 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffaab06e-a604-41f5-8925-cc813a284f02")
+		(property "Reference" "U439"
+			(at 29.21 257.7398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 29.21 260.2798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cryon_Library:DSF6_TEX"
+			(at 15.24 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 15.24 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 15.24 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28552627-5392-4828-b7ae-b80cf38273c5")
+		)
+		(pin "3"
+			(uuid "629f84b6-a873-4e1d-9875-3a9aa31b4ddf")
+		)
+		(pin "4"
+			(uuid "0d62e77c-3057-470c-99fd-2060be2ec90f")
+		)
+		(pin "2"
+			(uuid "ae61db7a-779f-4762-b9fc-d15eadda36cf")
+		)
+		(pin "5"
+			(uuid "68186b72-39ae-4fac-afe0-32a7ab54229c")
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e/99c1f534-0739-4e34-a08f-b650082d4ee4"
+					(reference "U439")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Cryon_Library") (type "KiCad") (uri "${KIPRJMOD}/../Cryon_Library/Cryon_Footprints.pretty") (options "") (descr ""))
+)
