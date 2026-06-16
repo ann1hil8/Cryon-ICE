@@ -7,11 +7,6 @@
 *-backups/
 _autosave-*
 
-# Filter out other unneeded projects in the parent folder
-Black-Box/
-PAL_to_27C020_Adapter/
-Polaris-ICE/
-
 # Output directories
 fp-info-cache
 *.gbr
