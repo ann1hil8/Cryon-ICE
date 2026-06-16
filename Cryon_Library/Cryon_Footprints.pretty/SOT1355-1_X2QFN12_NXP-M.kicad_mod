@@ -445,7 +445,7 @@
 		(uuid "8402c6df-ac02-40c3-a762-512c02b70f61")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/SOT1355-1_X2QFN12_NXP.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/SOT1355-1_X2QFN12_NXP.iges"
 		(offset
 			(xyz 0 0 0)
 		)

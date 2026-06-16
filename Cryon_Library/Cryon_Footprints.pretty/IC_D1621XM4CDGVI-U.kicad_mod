@@ -1632,7 +1632,7 @@
 		(uuid "79c3da62-ad4e-4c9b-842d-999162914306")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/D1621XM4CDGVI-U.step"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/D1621XM4CDGVI-U.step"
 		(offset
 			(xyz 0 0 0)
 		)

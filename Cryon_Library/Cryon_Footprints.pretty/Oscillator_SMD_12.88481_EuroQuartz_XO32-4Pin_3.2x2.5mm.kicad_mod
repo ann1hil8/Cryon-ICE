@@ -295,7 +295,7 @@
 		(uuid "cb130db4-2a70-49df-a0aa-4baf9d739608")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/12-88481.step"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/12-88481.step"
 		(offset
 			(xyz 0 0 0)
 		)

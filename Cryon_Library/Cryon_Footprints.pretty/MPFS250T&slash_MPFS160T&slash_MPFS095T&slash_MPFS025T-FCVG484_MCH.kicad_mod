@@ -3403,7 +3403,7 @@
 		(uuid "93e1c015-b5ac-4bc6-ac92-126a7cfb8681")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/MPFS250TMPFS160TMPFS095TMPFS025T-FCVG484_MCH.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/MPFS250TMPFS160TMPFS095TMPFS025T-FCVG484_MCH.iges"
 		(offset
 			(xyz 0 0 0)
 		)

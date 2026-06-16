@@ -687,7 +687,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/SMB_STM.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/SMB_STM.iges"
 		(offset
 			(xyz 0 0 0)
 		)

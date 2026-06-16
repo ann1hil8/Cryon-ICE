@@ -2612,7 +2612,7 @@
 		(uuid "a0dca804-6c12-4d2b-8e88-31beafdd58ba")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/QFN32_5X5MC_MCH.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/QFN32_5X5MC_MCH.iges"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -670,7 +670,7 @@
 		(uuid "240d224c-05a9-4f37-96d7-8c08dfafd2e0")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/D0008A.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/D0008A.iges"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1037,7 +1037,7 @@
 			(uuid "3930c1cc-bf3b-46cf-96a6-f74c89e0c5cc")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/SOT1355-1_X2QFN12_NXP.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/SOT1355-1_X2QFN12_NXP.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1597,7 +1597,7 @@
 			(uuid "5e3a8372-022c-4796-8a8a-da0bff27caed")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2595,7 +2595,7 @@
 			(uuid "3dbf5c82-412d-4805-8544-c04ab9780f87")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3015,7 +3015,7 @@
 			(uuid "34f08e4f-a6c3-4442-a84c-3adcf63b7df8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4153,7 +4153,7 @@
 			(uuid "82e906df-0565-41c8-b08a-5e4d2a9c73cf")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4682,7 +4682,7 @@
 			(uuid "9bccf902-9a6c-458e-903f-e8db392c17c9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5242,7 +5242,7 @@
 			(uuid "c0dffe82-92d6-48d3-a778-9c49d09200e6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5405,7 +5405,7 @@
 			(uuid "1dc3851e-fe85-4bc1-ba4d-68875f9b629f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5971,7 +5971,7 @@
 			(uuid "2ae4c37d-2aca-4403-a3aa-bd1e25c91e57")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7228,7 +7228,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/SMB_STM.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/SMB_STM.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7391,7 +7391,7 @@
 			(uuid "9526876f-3549-43dc-ae80-82d49c01dff7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8103,7 +8103,7 @@
 			(uuid "f11e457b-5853-44d5-9392-f844fb453718")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8663,7 +8663,7 @@
 			(uuid "34b8a43a-6e4b-4219-b27d-ae8708d96d03")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14186,7 +14186,7 @@
 			(uuid "bd64e4da-44e5-4139-bdc1-fe6e7af00aca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/MPFS250TMPFS160TMPFS095TMPFS025T-FCVG484_MCH.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/MPFS250TMPFS160TMPFS095TMPFS025T-FCVG484_MCH.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14892,7 +14892,7 @@
 			(uuid "8b14342a-f5b0-4a0d-80d5-3074cccfcea5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15312,7 +15312,7 @@
 			(uuid "00ff768a-f700-441f-b7d2-001e50f00cbc")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16534,7 +16534,7 @@
 			(uuid "782d0d20-3527-46d2-9532-7da08ba59528")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17246,7 +17246,7 @@
 			(uuid "072a3c10-1c06-42db-8432-9fcb3110e33b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17666,7 +17666,7 @@
 			(uuid "ab0effaa-7198-4043-bb66-96f4c1965cca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18372,7 +18372,7 @@
 			(uuid "60ddb5a8-112c-4409-961c-ee85ad7d6de9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19072,7 +19072,7 @@
 			(uuid "9d4062d8-f8cc-4c06-a34b-3ab3e004952c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19492,7 +19492,7 @@
 			(uuid "42dc3b1d-dbab-4d98-8110-6d2b56467b3e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20058,7 +20058,7 @@
 			(uuid "e4f6b7ae-dd23-4df4-9de5-3bfe2857adb5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21019,7 +21019,7 @@
 			(uuid "4ea7a5d4-8137-4409-91d5-1c433e1c5e74")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25337,7 +25337,7 @@
 			(uuid "55297b7f-62e0-45d9-8988-fcf5508405c2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/D1621XM4CDGVI-U.step"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/D1621XM4CDGVI-U.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25757,7 +25757,7 @@
 			(uuid "763f4392-d51f-4e03-b4ba-5b51e07375f1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26323,7 +26323,7 @@
 			(uuid "7e14a2b2-af60-429d-b1e0-3da3360254f3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26653,7 +26653,7 @@
 			(uuid "d4801cf5-4636-44b8-9610-375e13a01201")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/12-88481.step"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/12-88481.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27359,7 +27359,7 @@
 			(uuid "8038e319-5f43-45a9-9aac-98c80b996fa1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27919,7 +27919,7 @@
 			(uuid "ced5c8f7-a585-4753-89e7-fdf991d66f75")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28479,7 +28479,7 @@
 			(uuid "011e9cfb-2949-44ac-acd5-79d57211d562")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31216,7 +31216,7 @@
 			(uuid "d1825d39-790c-4fd8-b6b0-0bc2b56c20a4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/QFN32_5X5MC_MCH.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/QFN32_5X5MC_MCH.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31659,7 +31659,7 @@
 			(uuid "70b9ca93-2d2c-443c-a13f-2d89103751db")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32365,7 +32365,7 @@
 			(uuid "e9ac02b9-eff4-40b9-a9e5-93a10adb1952")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33065,7 +33065,7 @@
 			(uuid "0aa6e51a-ad65-40dd-a9a4-df904ab79161")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33625,7 +33625,7 @@
 			(uuid "22c73dd9-faa2-458b-9ddc-b7d97dcd8ad7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34763,7 +34763,7 @@
 			(uuid "78c5f3ad-8a15-40ae-83ad-752c8dc0d33a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35621,7 +35621,7 @@
 			(uuid "04ef165d-32ae-4c58-a9e5-1232bc4e640d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36041,7 +36041,7 @@
 			(uuid "052116bd-930d-4822-8326-84e10523ab3c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36570,7 +36570,7 @@
 			(uuid "ea2c5ad3-e1ba-4591-833a-1517aca1de8e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37136,7 +37136,7 @@
 			(uuid "46515582-bc73-4873-827a-a12a838232ee")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37556,7 +37556,7 @@
 			(uuid "b966450f-ec62-4f64-92ee-cce1a9e35359")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38085,7 +38085,7 @@
 			(uuid "845b8fd9-49b4-4c4c-8ea2-05fc494f6eba")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38873,7 +38873,7 @@
 			(uuid "81386e90-4a28-4b90-afbb-3065eb5fbbc6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/D0008A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/D0008A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39433,7 +39433,7 @@
 			(uuid "814a8e3d-50db-4341-a889-6c5bf757e40b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39853,7 +39853,7 @@
 			(uuid "e5c9dc19-d30a-4726-9b36-44c31c7024ca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40273,7 +40273,7 @@
 			(uuid "f100bc90-39b7-41f5-8592-9b52a934f411")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41380,7 +41380,7 @@
 			(uuid "00cbbb8f-c85c-4c88-90e4-7d473947f4d9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42226,7 +42226,7 @@
 			(uuid "10bc3004-6576-4f4c-84a4-a70156eabf03")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42786,7 +42786,7 @@
 			(uuid "218d0f09-9b4b-4526-92bf-525287d9da75")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43638,7 +43638,7 @@
 			(uuid "f96320f8-3d1b-4666-906c-4078e52911c5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43879,7 +43879,7 @@
 			(uuid "a1105199-83a8-42de-a42c-b47360c1e08f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DMG1012T.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DMG1012T.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45017,7 +45017,7 @@
 			(uuid "737e9764-f778-4a71-9518-609e95f3e116")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45577,7 +45577,7 @@
 			(uuid "9f04429b-54c8-47ec-902f-5a0e1428b660")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46715,7 +46715,7 @@
 			(uuid "303b4c0e-c226-4c4f-8e8c-63cd46871226")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47530,7 +47530,7 @@
 			(uuid "7eba3d43-9a8e-41c2-a3ea-e265aa301f00")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48090,7 +48090,7 @@
 			(uuid "b9890a91-f658-45d5-8dbd-5371d53351e1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48510,7 +48510,7 @@
 			(uuid "e4690176-6c47-463d-a995-95682f6ce5fa")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49490,7 +49490,7 @@
 			(uuid "c7d8a1d5-8b55-4491-96c7-98728f209b93")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49910,7 +49910,7 @@
 			(uuid "2bae0d69-bd2f-4eab-ab73-ebda1a2736c4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50476,7 +50476,7 @@
 			(uuid "4de371a6-6461-453a-9c2a-f953b36b05b8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51188,7 +51188,7 @@
 			(uuid "47473323-cd3b-481d-8b3a-90e07dc5e186")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51608,7 +51608,7 @@
 			(uuid "a2e158e0-f8cc-4e05-a20e-0690821c7077")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52028,7 +52028,7 @@
 			(uuid "63cf6226-b0b2-4a98-9eb9-304816c77c56")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53480,7 +53480,7 @@
 			(uuid "4982d26b-4ccc-43b2-bcb1-19e63c41241a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -53900,7 +53900,7 @@
 			(uuid "85300242-0dae-409f-85da-c6a698319707")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54343,7 +54343,7 @@
 			(uuid "4bee1672-86a3-4931-805f-2018b2c0af9d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54927,7 +54927,7 @@
 			(uuid "5ce46fe8-2d55-4b2d-b383-83dc19a1a3ef")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/10155435-00011LF.STEP"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/10155435-00011LF.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55347,7 +55347,7 @@
 			(uuid "6a30ecf7-290e-4223-8af1-fee05988a3c1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55913,7 +55913,7 @@
 			(uuid "d94ac2f2-b743-4828-b453-a9ee5e6936ed")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -56333,7 +56333,7 @@
 			(uuid "4e2d4df0-6d35-43a0-b52c-146c17b9514c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57623,7 +57623,7 @@
 			(uuid "a9e1ab6f-d362-432f-82c9-ca0e2bdf79b6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58043,7 +58043,7 @@
 			(uuid "5ae98ba6-6822-413f-b8da-ace38eee3cb2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58463,7 +58463,7 @@
 			(uuid "72a63b4b-6243-4273-a4a2-29d1ec2e6b29")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58883,7 +58883,7 @@
 			(uuid "a3f98a59-ed89-4b3f-903e-96fa0e5883b4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -59552,7 +59552,7 @@
 			(uuid "78c6ee5d-b042-4a22-a955-c0298c868ce0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -60118,7 +60118,7 @@
 			(uuid "5c57094e-dae6-490e-ba5a-503b72f57b56")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DPW0005A.iges"
+		(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DPW0005A.iges"
 			(offset
 				(xyz 0 0 0)
 			)

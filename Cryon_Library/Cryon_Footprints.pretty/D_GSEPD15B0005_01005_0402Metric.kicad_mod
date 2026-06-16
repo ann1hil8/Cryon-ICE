@@ -146,7 +146,7 @@
 		(uuid "1ffd7112-300b-403c-a805-999ae0145e1d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/CR_DFN1006-2_GAS.iges"
 		(offset
 			(xyz 0 0 0)
 		)

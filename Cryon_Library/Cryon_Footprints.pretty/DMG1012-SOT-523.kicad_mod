@@ -209,7 +209,7 @@
 		(uuid "17148db9-b370-428c-8172-11fa6e5c47f9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Ryan/Documents/PCB/Cryon_Library/3D_Models/DMG1012T.iges"
+	(model "${KIPRJMOD}/../Cryon_Library/3D_Models/DMG1012T.iges"
 		(offset
 			(xyz 0 0 0)
 		)
