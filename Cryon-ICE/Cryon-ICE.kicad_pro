@@ -721,7 +721,7 @@
         "uuid": "96e1c255-c0ff-457d-9e19-0aca2ce5c65e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J702",
     "variants": []
   },
   "sheets": [
@@ -748,6 +748,10 @@
     [
       "99131c9a-907f-4e6a-bf72-f762643f1e24",
       "LPDDR4"
+    ],
+    [
+      "a05b54a6-a18e-4224-bc57-e5883256b5d4",
+      "eMMC_SD"
     ]
   ],
   "text_variables": {},
