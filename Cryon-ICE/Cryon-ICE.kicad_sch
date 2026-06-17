@@ -39228,6 +39228,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 200.66) (xy 182.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fb4fe5-3fbc-4c3f-bc02-05e000c34742")
+	)
+	(wire
+		(pts
+			(xy 547.37 92.71) (xy 566.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e57664-4411-4d02-857f-999778df2daf")
+	)
+	(wire
+		(pts
 			(xy 173.99 213.36) (xy 173.99 187.96)
 		)
 		(stroke
@@ -39258,6 +39278,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 195.58) (xy 156.21 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff34408-92e4-4252-8b62-2b3c13fc2557")
+	)
+	(wire
+		(pts
 			(xy 134.62 157.48) (xy 142.24 157.48)
 		)
 		(stroke
@@ -39265,6 +39295,16 @@
 			(type default)
 		)
 		(uuid "2167a767-e979-4fe2-b85f-e0baa0687132")
+	)
+	(wire
+		(pts
+			(xy 134.62 203.2) (xy 182.88 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d64476-9f79-4db0-9389-80c0572ea7ed")
 	)
 	(wire
 		(pts
@@ -39398,6 +39438,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 198.12) (xy 182.88 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aaf03e9-5e2c-46c1-9749-093145b65ed1")
+	)
+	(wire
+		(pts
 			(xy 33.02 60.96) (xy 42.672 60.96)
 		)
 		(stroke
@@ -39465,6 +39515,16 @@
 			(type default)
 		)
 		(uuid "9e9fcb3f-070f-4b80-9d22-45183679f991")
+	)
+	(wire
+		(pts
+			(xy 160.02 227.33) (xy 182.88 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b7645-254a-40fc-9d5d-c4a796620d01")
 	)
 	(wire
 		(pts
@@ -39578,6 +39638,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 195.58) (xy 156.21 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef100add-3543-4900-916f-31fa1b2188f0")
+	)
+	(wire
+		(pts
 			(xy 71.12 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -39596,6 +39666,16 @@
 		)
 		(uuid "f9432223-6047-4c20-8f5e-e5c7a38591d3")
 	)
+	(label "SD_DET"
+		(at 566.42 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cac3711-e9c9-42bd-9ab7-73173854ea4a")
+	)
 	(label "USB0_RESETB"
 		(at 167.64 185.42 0)
 		(effects
@@ -39605,6 +39685,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7bbf142-7287-471b-907e-5c45ecdfe64a")
+	)
+	(label "SD_DET"
+		(at 166.37 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6f29f74-a6df-4fd2-b298-ad15e5d6f492")
 	)
 	(symbol
 		(lib_name "MPFS025T-FCVG484I_2")
@@ -46056,7 +46146,7 @@
 			)
 		)
 		(property "Sheetfile" "USB Interface.kicad_sch"
-			(at 142.494 194.564 0)
+			(at 141.986 192.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46302,6 +46392,102 @@
 			(project "Cryon-ICE"
 				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 194.31)
+		(size 27.94 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a05b54a6-a18e-4224-bc57-e5883256b5d4")
+		(property "Sheetname" "eMMC_SD"
+			(at 182.88 193.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eMMC_SD.kicad_sch"
+			(at 182.88 243.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_MISO" output
+			(at 182.88 203.2 180)
+			(uuid "4cb220c3-d5ec-42de-9f4e-dac47ae5fa1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_MOSI" input
+			(at 182.88 200.66 180)
+			(uuid "6a22d4cb-9dbc-4b80-b4b1-19a304a11d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SCK" input
+			(at 182.88 198.12 180)
+			(uuid "315f0788-3ebb-4f10-9d62-00262d67c6ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_SCK_1" output
+			(at 182.88 222.25 180)
+			(uuid "603eaca0-680d-454e-b735-dd64be1d6c48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_DET" output
+			(at 182.88 227.33 180)
+			(uuid "bbebe0e3-8427-49db-bf77-c531c2e7a34d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Cryon-ICE"
+				(path "/96e1c255-c0ff-457d-9e19-0aca2ce5c65e"
+					(page "7")
 				)
 			)
 		)

@@ -4080,17 +4080,6 @@
 		)
 		(uuid "301cd115-85b8-42b6-8a1a-b5cd19c21050")
 	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 74.93 200.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "573e68a0-1eb2-42f6-a8fa-622c45b1e951")
-	)
 	(text "27MHz"
 		(exclude_from_sim no)
 		(at 147.066 216.662 0)
@@ -4135,17 +4124,6 @@
 		)
 		(uuid "cc212507-3de8-45b2-a1de-674d1265c832")
 	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 66.04 175.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e529e016-62b8-4288-942d-525908e623ff")
-	)
 	(text "Power Switch"
 		(exclude_from_sim no)
 		(at 217.678 195.58 0)
@@ -4155,17 +4133,6 @@
 			)
 		)
 		(uuid "e8fa8125-461d-4c32-b9b5-3003bd3d7528")
-	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 83.82 200.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e91e1465-f511-4817-af40-e60943a14171")
 	)
 	(junction
 		(at 195.58 40.64)
@@ -8756,7 +8723,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "41a874ec-360b-4155-88d1-e9ba59625c3b")
 		(property "Reference" "R313"
 			(at 64.008 170.18 0)
@@ -11209,7 +11176,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "880b8b6e-c7c3-47c8-8fd2-8d9e0f4c472a")
 		(property "Reference" "R320"
 			(at 81.788 195.58 0)
@@ -13069,7 +13036,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df087509-5c9a-47cc-adf4-9cf5a57575df")
 		(property "Reference" "R319"
 			(at 72.898 195.58 0)
